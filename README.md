@@ -54,9 +54,11 @@ web-flash包含了成熟的后台管理功能和手机端h5内容站点系统
 - 基于idea插件的代码生成
 
 ### Lhq新增实现
+- 菜单管理：菜品分类、上下架、库存管理、图片上传————`flash-vue-admin/src/views/dishMgr/dish.js`
 - PC端在线点餐：菜品筛选、下单弹窗、表单校验、订单管理————`flash-vue-admin/src/views/order/order.js`
 - 移动端在线点餐：菜品详情弹窗、快捷下单、表单填写与校验————`flash-vue-h5/src/page/official_site/order.js`
 - 统计分析：菜品订单量统计图表展示、动态筛选、数据可视化————`flash-vue-admin/src/views/statistics/statistics.js`
+- 每部分内容的后端均在同名的文件夹下，结构整齐。
 
 
 ## 使用
