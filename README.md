@@ -53,6 +53,11 @@ web-flash包含了成熟的后台管理功能和手机端h5内容站点系统
 - 工作流：流程定义，发起申请，待办任务
 - 基于idea插件的代码生成
 
+- Lhq新增实现
+- PC端在线点餐：菜品筛选、下单弹窗、表单校验、订单管理————`flash-vue-admin/src/views/order/order.js`
+- 移动端在线点餐：菜品详情弹窗、快捷下单、表单填写与校验————`flash-vue-h5/src/page/official_site/order.js`
+- 统计分析：菜品订单量统计图表展示、动态筛选、数据可视化————`flash-vue-admin/src/views/statistics/statistics.js`
+
 
 ## 使用
 - 克隆本项目
@@ -64,6 +69,9 @@ web-flash包含了成熟的后台管理功能和手机端h5内容站点系统
         GRANT ALL privileges ON webflash.* TO 'webflash'@'%';
         flush privileges;
      ```
+-
+- ※ 运行sql/t_dish、t_order创建新增的两个数据库表
+- 
 - 在开发环境中配置了系统启动后自动创建数据库和初始化数据，所以不需要开发人员手动初始化数据库
 - 确保开发工具下载了lombok插件
 - 修改flash-api中数据库连接配置
